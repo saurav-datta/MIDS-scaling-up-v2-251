@@ -1,4 +1,4 @@
-FROM tensorrt
+FROM w251/tensorrt:tx2-3.3_b39
 
 RUN apt update && apt install -y python-pip
 
