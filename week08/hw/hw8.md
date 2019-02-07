@@ -1,14 +1,12 @@
 # Homework 6: 
-## Part 1: Image Annotation
+## Part 1.  Image Annotation
 For this homework, you will be annotating the Millennium Falcon and TIE Fighters in images from Star Wars: The Force Awakens.  
 
 The Millennium Falcon
-
 ![Image of the Millennium Falcon](./falcon.jpg)
 
 
 Three TIE Fighters
-
 ![Image of the Millennium Falcon](./fighters.jpg)
 
 
@@ -70,32 +68,8 @@ Questions:
 3.	Based on this experience,  how would you handle the annotation of large image data set?
 4.	Think about image augmentation?  How would augmentations such as flip, rotation, scale, cropping, and translation effect the annotations?
 
-## Part 2: Image Augmentation
-For part 2, you will need to install docker in a VM or your local workstation.  
+## Part 2 Image Augmentation
 
-1. Run the command:
-```bash
-       docker run -d -P 8888:8888 ryandejana/hw8augmentation
-```
-2. If using a VM, open your browser to ```http://<<yourPublicIP>>:8888/notebooks/augmentation.ipynb``` or if local, ```http://127.0.0.1:8888/notebooks/augmentation.ipynb``` and login with the password ```root```.
-3. Run the notebook.
-
-If you wish to experiment with the augmenation library, see https://github.com/codebox/image_augmentor
-
-Questions: 
-1. Describe the following augmentations in your own words
--	Flip
-- 	Rotation
--	Scale
--	Crop
--	Translation
--	Noise
-
-## Part 3: Audio Annoation
-Take a look at and explore the audio annotation tool CrowdCurio (https://github.com/CrowdCurio/audio-annotator
-
-Questions:
-1.	Image annotations require the coordinates of the objects and their classes; in your option, what is needed for an audio annotation? 
 
 ## What to turn  in
 ### Part 1
@@ -103,8 +77,10 @@ Questions:
 2. Your answers to questions 1 through 4. 
 
 ### Part 2
-1. Your answer to question 1.
+For part 2, you will need to install docker in a VM or your local workstation.  
 
-### Part 3
-1. Your answer to question 1.
-
+1. Run the command:
+```bash
+        docker run -d -P 8888:8888 <docker image>
+```
+2. If using a VM, open your browser to ```http://<<yourPublicIP>>:8888``` or if local, ```http://127.0.0.1:8888/```
