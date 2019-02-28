@@ -75,7 +75,7 @@ For part 2, you will need to install docker in a VM or your local workstation.
 
 1. Run the command:
 ```bash
-       docker run -d -P 8888:8888 ryandejana/hw8augmentation
+       docker run -d -p 8888:8888 ryandejana/hw8augmentation
 ```
 2. If using a VM, open your browser to ```http://<<yourPublicIP>>:8888/notebooks/augmentation.ipynb``` or if local, ```http://127.0.0.1:8888/notebooks/augmentation.ipynb``` and login with the password ```root```.
 3. Run the notebook.
@@ -91,8 +91,8 @@ Questions:
 -	Translation
 -	Noise
 
-## Part 3: Audio Annoation
-Take a look at and explore the audio annotation tool CrowdCurio (https://github.com/CrowdCurio/audio-annotator
+## Part 3: Audio Annotation
+Take a look at and explore the audio annotation tool CrowdCurio https://github.com/CrowdCurio/audio-annotator)
 
 Questions:
 1.	Image annotations require the coordinates of the objects and their classes; in your option, what is needed for an audio annotation? 
