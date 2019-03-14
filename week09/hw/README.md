@@ -49,5 +49,12 @@ Please submit the nohup.out file along with screenshots of your Tensorboard indi
 * Remember the definition of a "step". How long did an average step take?
 * How does that correlate with the observed network utilization between nodes?
 
+### Hints
+Your BLEU TB plot should look something like this:
+![Validation BLEU curve](bleu2.jpg)
 
+Your loss should be something like:
+![Validation loss curve](loss.JPG)
 
+And your learning rate  should be something like:
+![Learning rate curve](lr.JPG)
